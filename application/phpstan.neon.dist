@@ -1,0 +1,21 @@
+includes:
+    - ./vendor/nunomaduro/larastan/extension.neon
+
+parameters:
+
+    paths:
+        - app
+
+    # The level 8 is the highest level
+    level: 5
+
+    checkMissingIterableValueType: false
+
+    noUnnecessaryCollectionCall: false
+
+    universalObjectCratesClasses:
+        - \Illuminate\Database\Eloquent\Relations\Pivot
+
+    ignoreErrors:
+        - '#Binary operation "." between non-empty-string and array|string|null results in an error.#'
+        #- '#Access to an undefined property Illuminate\\Foundation\\Application::\$env.#'

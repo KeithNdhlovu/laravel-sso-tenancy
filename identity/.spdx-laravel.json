@@ -1,0 +1,1132 @@
+{
+    "SPDXID": "SPDXRef-laravel",
+    "spdxVersion": "SPDX-2.3",
+    "creationInfo": {
+        "created": "2023-03-16T22:05:25.990Z",
+        "creators": [
+            "Organization: VMware, Inc."
+        ]
+    },
+    "name": "SPDX document for Laravel 10.0.4",
+    "dataLicense": "CC0-1.0",
+    "documentDescribes": [
+        "SPDXRef-laravel"
+    ],
+    "documentNamespace": "laravel-10.0.4",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-laravel",
+            "name": "Laravel",
+            "versionInfo": "10.0.4",
+            "downloadLocation": "https://github.com/laravel/laravel/archive/v10.0.4.tar.gz",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "filesAnalyzed": false
+        },
+        {
+            "SPDXID": "SPDXRef-Package-19ed810e6190f2f7",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/league/commonmark@2.3.9",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "league/commonmark",
+            "versionInfo": "2.3.9",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-2084b9d86197736e",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/psr/simple-cache@3.0.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "psr/simple-cache",
+            "versionInfo": "3.0.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-23f94e437107c7c7",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/ramsey/collection@2.0.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "ramsey/collection",
+            "versionInfo": "2.0.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-245a321200810e92",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/guzzlehttp/promises@1.5.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "guzzlehttp/promises",
+            "versionInfo": "1.5.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-2a441eb1a47672f8",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/nette/schema@v1.2.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "nette/schema",
+            "versionInfo": "v1.2.3",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-2d915fbd444ec5e3",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/mime@v6.2.7",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/mime",
+            "versionInfo": "v6.2.7",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-38a57404f1ba4d88",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/finder@v6.2.7",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/finder",
+            "versionInfo": "v6.2.7",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-3c389aa6667bb412",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/css-selector@v6.2.7",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/css-selector",
+            "versionInfo": "v6.2.7",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-3f07c645ec575c9a",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/process@v6.2.7",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/process",
+            "versionInfo": "v6.2.7",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-42b37621ea9e1316",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/vlucas/phpdotenv@v5.5.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "vlucas/phpdotenv",
+            "versionInfo": "v5.5.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-44be90390c76143",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/egulias/email-validator@4.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "egulias/email-validator",
+            "versionInfo": "4.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-49e46d6ccd25c7e1",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/league/flysystem@3.12.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "league/flysystem",
+            "versionInfo": "3.12.3",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-4ac4997a9b9f5765",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/guzzlehttp/guzzle@7.5.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "guzzlehttp/guzzle",
+            "versionInfo": "7.5.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-4b0651bab094653b",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/doctrine/inflector@2.0.6",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "doctrine/inflector",
+            "versionInfo": "2.0.6",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-4bbe8cb2f120dba7",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/var-dumper@v6.2.7",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/var-dumper",
+            "versionInfo": "v6.2.7",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-4c3e9d42c74211e",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/psr/http-factory@1.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "psr/http-factory",
+            "versionInfo": "1.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-549e195587892bcd",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/monolog/monolog@3.3.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "monolog/monolog",
+            "versionInfo": "3.3.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-5951b0388f742c47",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/brick/math@0.10.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "brick/math",
+            "versionInfo": "0.10.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-5a5122271b083c81",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/event-dispatcher-contracts@v3.2.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/event-dispatcher-contracts",
+            "versionInfo": "v3.2.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-5c14b6c944087ae2",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/webmozart/assert@1.11.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "webmozart/assert",
+            "versionInfo": "1.11.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-5c474f8bde2cf228",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/phpoption/phpoption@1.9.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "phpoption/phpoption",
+            "versionInfo": "1.9.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-5e9c39c01c274ba0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/laravel/serializable-closure@v1.3.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "laravel/serializable-closure",
+            "versionInfo": "v1.3.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-66a1a5586e2f12cf",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/psr/http-message@1.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "psr/http-message",
+            "versionInfo": "1.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-68463edecc3dd877",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/dflydev/dot-access-data@v3.0.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "dflydev/dot-access-data",
+            "versionInfo": "v3.0.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-6ae4ae194458115a",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/event-dispatcher@v6.2.7",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/event-dispatcher",
+            "versionInfo": "v6.2.7",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-6b016ff9be991e1b",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-ctype@v1.27.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/polyfill-ctype",
+            "versionInfo": "v1.27.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-6b7ccd1ba53de5be",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-intl-normalizer@v1.27.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/polyfill-intl-normalizer",
+            "versionInfo": "v1.27.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-832abb9570249add",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/error-handler@v6.2.7",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/error-handler",
+            "versionInfo": "v6.2.7",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-8b005fc6b1f9b05c",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/laravel/framework@v10.3.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "laravel/framework",
+            "versionInfo": "v10.3.3",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-8cdaa01827954c5c",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-php80@v1.27.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/polyfill-php80",
+            "versionInfo": "v1.27.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-8cf1587c0dfb977f",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/league/mime-type-detection@1.11.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "league/mime-type-detection",
+            "versionInfo": "1.11.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-8e60cf963f8c855b",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-intl-grapheme@v1.27.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/polyfill-intl-grapheme",
+            "versionInfo": "v1.27.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-964d003fdae60947",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/fruitcake/php-cors@v1.2.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "fruitcake/php-cors",
+            "versionInfo": "v1.2.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-9b16f8cedbb10a37",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/psy/psysh@v0.11.12",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "psy/psysh",
+            "versionInfo": "v0.11.12",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-9b4ff76d60cd03de",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/psr/log@3.0.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "psr/log",
+            "versionInfo": "3.0.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-a1935c31aac7dfd6",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/guzzlehttp/psr7@2.4.4",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "guzzlehttp/psr7",
+            "versionInfo": "2.4.4",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-a3a68c378d2f4bb4",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/psr/container@2.0.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "psr/container",
+            "versionInfo": "2.0.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-a700690cebec62bb",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/nesbot/carbon@2.66.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "nesbot/carbon",
+            "versionInfo": "2.66.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-a93c0ed3e370132d",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/guzzlehttp/uri-template@v1.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "guzzlehttp/uri-template",
+            "versionInfo": "v1.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-b0626b181bd234ae",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/nikic/php-parser@v4.15.4",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "nikic/php-parser",
+            "versionInfo": "v4.15.4",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-b7f0d0844281ade0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-uuid@v1.27.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/polyfill-uuid",
+            "versionInfo": "v1.27.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-b8f5857d09d8b7ac",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-intl-idn@v1.27.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/polyfill-intl-idn",
+            "versionInfo": "v1.27.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-b9dc3fdfa6f767fa",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/translation@v6.2.7",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/translation",
+            "versionInfo": "v6.2.7",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-ba1e62ee3940f041",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/uid@v6.2.7",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/uid",
+            "versionInfo": "v6.2.7",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-baff82e66a56ed0a",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/graham-campbell/result-type@v1.1.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "graham-campbell/result-type",
+            "versionInfo": "v1.1.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-bd422bc8bc2b1253",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/doctrine/lexer@3.0.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "doctrine/lexer",
+            "versionInfo": "3.0.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-bf7400fe6adc1d15",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/string@v6.2.7",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/string",
+            "versionInfo": "v6.2.7",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-c6ce3828848071c2",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/laravel/sanctum@v3.2.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "laravel/sanctum",
+            "versionInfo": "v3.2.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-c7b74a3bd3659416",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/voku/portable-ascii@2.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "voku/portable-ascii",
+            "versionInfo": "2.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-c96c9b524e6d894f",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/nunomaduro/termwind@v1.15.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "nunomaduro/termwind",
+            "versionInfo": "v1.15.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-cec7c5946ad3891b",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/http-foundation@v6.2.7",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/http-foundation",
+            "versionInfo": "v6.2.7",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-cf08c080a82917a6",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/nette/utils@v4.0.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "nette/utils",
+            "versionInfo": "v4.0.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-d0af0bd28075c68d",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/ramsey/uuid@4.7.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "ramsey/uuid",
+            "versionInfo": "4.7.3",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-d122dae2594678d5",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/laravel/tinker@v2.8.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "laravel/tinker",
+            "versionInfo": "v2.8.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-d5adef14989b7379",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/ralouphie/getallheaders@3.0.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "ralouphie/getallheaders",
+            "versionInfo": "3.0.3",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-d9d7c275000667e3",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/psr/http-client@1.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "psr/http-client",
+            "versionInfo": "1.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-db35234525006fd2",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-mbstring@v1.27.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/polyfill-mbstring",
+            "versionInfo": "v1.27.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-e0bcfd8ac76dda10",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/translation-contracts@v3.2.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/translation-contracts",
+            "versionInfo": "v3.2.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-e187d7ca23abdec4",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/service-contracts@v3.2.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/service-contracts",
+            "versionInfo": "v3.2.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-e1ef90051c85a8cf",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/console@v6.2.7",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/console",
+            "versionInfo": "v6.2.7",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-e2946ab72535876c",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-php72@v1.27.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/polyfill-php72",
+            "versionInfo": "v1.27.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-e42988e6ed69a857",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/mailer@v6.2.7",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/mailer",
+            "versionInfo": "v6.2.7",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-ebbcf02659b0b723",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/http-kernel@v6.2.7",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/http-kernel",
+            "versionInfo": "v6.2.7",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-effdd6e5f22bf07",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/dragonmantank/cron-expression@v3.3.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "dragonmantank/cron-expression",
+            "versionInfo": "v3.3.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-f1ada9a2acb49257",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/league/config@v1.2.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "league/config",
+            "versionInfo": "v1.2.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-f71bbe4be94aad27",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/psr/event-dispatcher@1.0.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "psr/event-dispatcher",
+            "versionInfo": "1.0.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-f85c5af115d1029e",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/tijsverkoyen/css-to-inline-styles@2.2.6",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "tijsverkoyen/css-to-inline-styles",
+            "versionInfo": "2.2.6",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-fc92ae7869421b16",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/deprecation-contracts@v3.2.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/deprecation-contracts",
+            "versionInfo": "v3.2.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-ffbdf727ec44105d",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/routing@v6.2.7",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/routing",
+            "versionInfo": "v6.2.7",
+            "downloadLocation": "NOASSERTION"
+        }
+    ],
+    "files": []
+}

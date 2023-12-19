@@ -1,0 +1,67 @@
+### OSX BOOGERS ###
+.DS_Store
+*._DS_Store
+._.DS_Store
+*._
+._*
+._.*
+
+### WINDOWS BOOGERS ###
+Thumbs.db
+
+### Sass ###
+#bower_components/*
+/.sass-cache/*
+.sass-cache
+
+### SUBLIMETEXT BOOGERS ###
+*.sublime-workspace
+
+### PHPSTORM BOOGERS ###
+.idea/*
+/.idea/*
+.phpintel/*
+/.phpintel/*
+
+### DIFFERENT TYPE OF MASTER CONFIGS ###
+.env
+#composer.lock
+
+### ASSET EXCLUSIONS ###
+/node_modules
+/public/storage
+/storage/*.key
+/vendor
+Homestead.yaml
+Homestead.json
+/storage
+/storage/debugbar
+/storage/framework
+/storage/logs
+/storage/users
+/storage/institutions
+bootstrap/cache/config.php
+core.347
+
+.php_cs.cache
+.php-cs-fixer.cache
+
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode

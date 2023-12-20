@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Auth\LoginController;
+use App\Models\Tenant;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -16,16 +17,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    
+    $tenants = Tenant::with(['domains'])->get();
+
+    return view('welcome')
+        ->with('tenants', $tenants);
 });
-
-// Route::get('/home', function () {
-//     dd(Auth::user());
-//     // return "Welcome home";
-// });
-
-// Route::post('logout', [LoginController::class, 'logout'])->name('logout');    // Logout
-
-// // Socialite - External Auth Server
-// Route::get('login/passport', [LoginController::class, 'redirectToExternalAuthServer']);     // Login button pressed - Redirect to auth server
-// Route::get('passport/callback', [LoginController::class, 'handleExternalAuthCallback']);    // Response from Auth Server

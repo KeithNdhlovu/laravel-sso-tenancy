@@ -4,7 +4,11 @@ namespace App\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
 
+use App\Enums\SystemRoles;
 use App\Models\Traits\HasPermissionsTrait;
+use Filament\Models\Contracts\FilamentUser;
+use Filament\Models\Contracts\HasName;
+use Filament\Panel;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
@@ -65,7 +69,7 @@ use Laravel\Sanctum\HasApiTokens;
  * @property-read \Illuminate\Database\Eloquent\Collection<int, \Laravel\Sanctum\PersonalAccessToken> $tokens
  * @mixin \Eloquent
  */
-class User extends Authenticatable
+class User extends Authenticatable implements FilamentUser, HasName
 {
     use HasApiTokens, HasFactory, Notifiable, HasPermissionsTrait;
 
@@ -117,55 +121,13 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    // /**
-    //  * Get all of the roles for the User
-    //  *
-    //  * @return \Illuminate\Database\Eloquent\Relations\HasMany
-    //  */
-    // public function roles(): HasMany
-    // {
-    //     return $this->hasMany(UserRole::class, 'user_id');
-    // }
-
-    // // /**
-    // //  * The roles that belong to the User.
-    // //  *
-    // //  * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany<\App\Models\Role>
-    // //  */
-    // // public function roles(): BelongsToMany
-    // // {
-    // //     return $this->belongsToMany(Role::class, 'user_role')
-    // //         ->using(UserRole::class);
-    // // }
-
-
-    public function department()
+    public function canAccessPanel(Panel $panel): bool
     {
-        return $this->belongsTo(Ward::class);
+        return $this->hasRoles([SystemRoles::RoleSystemAdmin->value]) && $this->hasVerifiedEmail();
     }
-
-    public function incidents()
+    
+    public function getFilamentName(): string
     {
-        return $this->hasMany(Incident::class);
-    }
-
-    /**
-     * Get all of the audits for the Organisation.
-     *
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany
-     */
-    public function audits()
-    {
-        return $this->hasMany(UserAudit::class, 'user_id');
-    }
-
-    /**
-     * Get all of the involved incidents for the Organisation.
-     *
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany
-     */
-    public function involvements()
-    {
-        return $this->hasMany(InvolvedParty::class);
+        return $this->first_name . ' ' . $this->last_name;
     }
 }

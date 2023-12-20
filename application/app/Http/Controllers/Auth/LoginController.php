@@ -61,9 +61,6 @@ class LoginController extends Controller
     public function handleExternalAuthCallback(Request $request): RedirectResponse
     {
         $driver = DynamicPassportProvider::getTenantDriver(tenant('id'));
-        
-        // dd($request);
-        // dd(Socialite::driver($driver));
 
         $user = Socialite::driver($driver)->user();
         

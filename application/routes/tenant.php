@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+use App\Http\Controllers\Auth\HomeController;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\IncidentController;
 use App\Http\Controllers\WelcomeController;
@@ -26,13 +27,8 @@ Route::middleware([
     InitializeTenancyByDomain::class,
     PreventAccessFromCentralDomains::class,
 ])->group(function () {
-    // Route::get('/', function () {
-    //     return 'This is your multi-tenant application. The id of the current tenant is ' . tenant('id');
-    // });
 
     Route::get('/', [WelcomeController::class, 'welcome'])->name('welcome');
-
-    Route::get('home', [WelcomeController::class, 'index'])->name('home')->middleware(['auth']);
 
     Route::post('logout', [LoginController::class, 'logout'])->name('logout');    // Logout
 

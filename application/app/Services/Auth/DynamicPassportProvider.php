@@ -15,10 +15,6 @@ class DynamicPassportProvider
      */
     public const PROVIDER_DEFAULT = 'laravelpassport.default';
 
-    public const PROVIDER_T1 = 'laravelpassport.t1';
-
-    public const PROVIDER_T2 = 'laravelpassport.t2';
-
     /**
      * Default parent provider name.
      *
@@ -28,7 +24,10 @@ class DynamicPassportProvider
 
     /**
      * The whitelisted providers in the system.
-     *
+     * 
+     * @NOTE: The idea here is to add the subdomain name parts here for example
+     * we have t1 and t2 listed here, these match the tenant ids we already have in the system, this just creates a better look-up mechanism
+     * 
      * @var array
      */
     public const ALLOWED_PROVIDERS = [

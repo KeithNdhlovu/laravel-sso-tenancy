@@ -33,8 +33,17 @@ class AdminPanelProvider extends PanelProvider
             ->login(Login::class)
             // ->authGuard('web')
             ->colors([
-                'primary' => Color::Amber,
+                'primary' => Color::Blue,
             ])
+            ->brandName(fn (): string => tenant('name'))
+            ->brandLogo(fn (): string => asset('logos/' . tenant('id') . '-logo.svg'))
+            ->brandLogoHeight(function () {
+                if (request()->routeIs('filament.admin.auth.login')) {
+                    return '6rem';
+                }
+                return '1.5rem';
+            })
+            ->favicon(fn (): string => asset('logos/' . tenant('id') . '-logo.svg'))
             ->discoverResources(in: app_path('Filament/Resources'), for: 'App\\Filament\\Resources')
             ->discoverPages(in: app_path('Filament/Pages'), for: 'App\\Filament\\Pages')
             ->pages([

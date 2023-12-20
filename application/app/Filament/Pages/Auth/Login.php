@@ -4,6 +4,7 @@ namespace App\Filament\Pages\Auth;
 
 use Filament\Actions\Action;
 use Filament\Pages\Auth\Login as BasePage;
+use Illuminate\Contracts\Support\Htmlable;
 
 class Login extends BasePage
 {
@@ -20,6 +21,11 @@ class Login extends BasePage
                     ->statePath('data'),
             ),
         ];
+    }
+
+    public function getHeading(): string | Htmlable
+    {
+        return tenant('name');
     }
 
     /**

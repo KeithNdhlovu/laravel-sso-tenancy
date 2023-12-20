@@ -14,11 +14,23 @@ class TenantSeeder extends Seeder
     public function run(): void
     {
         // Tenant 1
-        $tenant1 = Tenant::create(['id' => 't1', 'plan' => 'free']);
-        $tenant1->domains()->create(['domain' => 't1.application.test']);
+        $tenant1 = Tenant::firstOrCreate([
+            'id' => 't1', 
+        ]);
+        $tenant1->update([
+            'plan' => 'free',
+            'name' => 'Tenant 1',
+        ]);
+        $tenant1->domains()->firstOrCreate(['domain' => 't1.application.test']);
 
         // Tenant 2
-        $tenant2 = Tenant::create(['id' => 't2', 'plan' => 'free']);
-        $tenant2->domains()->create(['domain' => 't2.application.test']);
+        $tenant2 = Tenant::firstOrCreate([
+            'id' => 't2', 
+        ]);
+        $tenant2->update([
+            'plan' => 'free',
+            'name' => 'Tenant 2',
+        ]);
+        $tenant2->domains()->firstOrCreate(['domain' => 't2.application.test']);
     }
 }

@@ -18,6 +18,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
  * @method static \Illuminate\Database\Eloquent\Builder|Permission query()
  * @method static \Illuminate\Database\Eloquent\Builder|Permission whereDescription($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Permission whereId($value)
+ * @property-read \Illuminate\Database\Eloquent\Collection<int, \App\Models\Role> $roles
  * @mixin \Eloquent
  */
 class Permission extends Model
